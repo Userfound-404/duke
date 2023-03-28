@@ -1,0 +1,105 @@
+.container {
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 20px;
+}
+
+h1 {
+	text-align: center;
+}
+
+form {
+	display: flex;
+	flex-direction: column;
+	align-items: left;
+  font-size: 25px;
+}
+
+label {
+	margin: 10px 0;
+}
+
+input[type="text"] {
+	padding: 10px;
+	font-size: 20px;
+	border-radius: 5px;
+	border: 1px solid #ccc;
+}
+
+input[type="submit"] {
+	padding: 10px;
+	font-size: 20px;
+	border-radius: 5px;
+	background-color: #007bff;
+	color: #fff;
+	border: none;
+	cursor: pointer;
+	margin-top: 10px;
+}
+
+input[type="submit"]:hover {
+	background-color: #0062cc;
+}
+
+  
+  .field-inputs {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+  }
+  
+  .form-control-input {
+    font-size: 2rem;
+    padding: 0.2rem 0px;
+    text-indent: 1.5rem;
+    border: none;
+    outline: 1px solid #999;
+    border-radius: 2px;
+    width: 100%;
+    color: #999;
+  }
+  option {
+    color: #999;
+  }
+  .radio {
+    outline: none;
+  }
+  
+  .form-control-input:focus {
+    color: #212529;
+    background-color: #fff;
+    border-color: #86b7fe;
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem rgb(13 110 253 / 25%);
+  }
+  
+  .help-text {
+    font-size: 10rem;
+    margin-top: 0.4rem;
+    padding: 0.1rem;
+  }
+  body{
+    background-color: rgb(180, 124, 207);
+    background-image: radial-gradient(#FBFFE2,#FFEBCC);
+    background-repeat: fill;
+    background-size: cover;
+  }
+  .btn
+  {
+    width :100px;
+    margin:auto;
+  }
+
+.regs
+{
+   margin:auto;
+   margin-bottom: 1rem;
+    white-space: pre;
+    padding: 1rem;
+}
+.input-div {
+    margin-bottom: 1rem;
+    width: 50%;
+    margin:auto;
+    
+  }

@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="icon" type="image/x-icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTf-pXw6hHCJ0VBrT0Ym40QWkaEEcrJAKt3U3E_k_I&s">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Grievances page</title>
+
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-teal.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-blue-grey.css">
+  
+  <style>
+  body{
+    font-family: Verdana, 'Roboto', sans-serif;
+    background-image:radial-gradient(#CBEDD5,#97DECE,#62B6B7,#439A97);
+    line-height: 1.5;
+   }
+   main{
+   max-width: 80%;
+   margin:10px auto;
+    }
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  border: 3px solid green; 
+}
+
+.container{max-width:900px;margin:auto}.title{text-align:center;font-family:Arial;margin-top:50px;margin-bottom:50px}.accordion__item{margin-bottom:10px}.accordion__item__header{background-color:#CBEAFE;padding:15px;cursor:pointer;position:relative;color:#000;font-family:Arial;font-weight:400;font-size:20px}.accordion__item__header::before{height:15px;width:15px;content:"";position:absolute;right:15px;top:15px;transition:.5s all;transform:rotate(45deg);border-right:2px solid #000;border-bottom:2px solid #000}.accordion__item__header.active{background-color:#33a0ff;color:#fff;transition:.5s}.accordion__item__header.active::before{transform:rotate(-135deg);top:23px;border-right:2px solid #fff;border-bottom:2px solid #fff}.accordion__item__content{overflow-y:auto;padding:0;display:none}
+
+.testbtn {
+  border:1px solid #99cc44 !important;    
+  border-left:5px solid #99cc44 !important;     
+  border-right:5px solid #99cc44 !important;       
+  border-top:5px solid #99cc44 !important;     
+  border-bottom:5px solid #99cc44 !important;         
+  -webkit-border-radius: 25px;    
+  border-radius: 25px;
+  margin-right: 10px;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .testbtn {   
+  width: 100%;
+  height: auto;
+  padding: 0 !important;
+  margin: 1px !important;    
+  font-size: 18px;
+  }
+}
+  </style>
+</head>
+
+<body>
+
+     <div class="w3-panel">
+    <h1 class="title" style="vertical-align:middle;margin-top:10px;margin-bottom:10px;">GRIEVANCES</h1>
+     </div>
+
+  <!-- <div class="w3-border"> -->
+<div class="w3-bar w3-theme center">
+  <button class="w3-bar-item w3-button testbtn w3-padding-16" style="font-size:24px" onclick="openCategory(event,'Category1')">ACCOUNT AND SUPPORT</button>
+  <button class="w3-bar-item w3-button testbtn w3-padding-16" style="font-size:24px" onclick="openCategory(event,'Category2')">SCHEMES</button>
+  <button class="w3-bar-item w3-button testbtn w3-padding-16" style="font-size:24px" onclick="openCategory(event,'Category3')">PAYMENT QUERIES</button>
+</div>
+
+<br>
+<br>
+
+<div id="Category1" class="w3-container category w3-animate-opacity">
+<main>
+
+  <div class="container">
+
+    <div class="accordion">
+	
+	 <div class="accordion__item">
+        <div class="accordion__item__header">
+         How do i create an account?
+        </div>
+    
+        <div class="accordion__item__content">
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et ut consequatur placeat assumenda minus voluptates blanditiis alias, voluptatibus eaque. Eveniet, iusto nobis repellendus doloremque culpa maxime, dolore fugiat quibusdam assumenda accusamus corrupti, quis illum. Dolorem reprehenderit tenetur natus quae vitae laboriosam. Officiis ex vero excepturi culpa esse ducimus rerum modi atque fuga commodi. Magni, deserunt laborum labore ex excepturi debitis, suscipit fugiat libero reiciendis quaerat aspernatur provident modi ea. Delectus voluptatum unde blanditiis impedit autem harum quos reiciendis quam, vero ipsum ipsa fuga rerum! Nesciunt delectus, ut at quo, odit, possimus neque eaque eius maxime error sint atque ab sapiente.</p>   
+        </div>
+      </div>
+	
+	
+      <div class="accordion__item">
+        <div class="accordion__item__header">
+         How do i log into my account?
+        </div>
+    
+        <div class="accordion__item__content">
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Praesentium, quae quod? Deserunt perspiciatis tempore ipsa optio, voluptatem laboriosam similique veritatis quidem architecto reiciendis a sapiente voluptate modi perferendis eaque totam mollitia. Nulla, quo. Consequuntur quis reiciendis in? Accusamus quaerat architecto ipsa necessitatibus fugiat, excepturi deserunt exercitationem libero laboriosam maiores ut!</p>
+        </div>
+      </div>
+    
+      <div class="accordion__item">
+        <div class="accordion__item__header">
+         How can i caontact customer support
+        </div>
+    
+        <div class="accordion__item__content">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit minus earum voluptatem consequatur, amet temporibus exercitationem. Neque soluta tenetur excepturi voluptatem ad. Eum aperiam debitis animi laborum est earum saepe sapiente. Atque quo voluptatum molestiae, quod ab mollitia, laborum veritatis assumenda velit neque at earum eos illo ut ex qui.</p>
+        </div>
+      </div>
+    
+      <div class="accordion__item">
+        <div class="accordion__item__header">
+         Is there any mobile app for the website
+        </div>
+    
+        <div class="accordion__item__content">
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque esse consequatur nulla. Nisi impedit dignissimos voluptatum mollitia unde, culpa explicabo dicta tempore eos provident aut aspernatur nostrum nemo dolorem soluta minima incidunt blanditiis reprehenderit iure tenetur? Corporis doloremque maiores labore earum accusantium nobis vel ut consectetur vero ipsa, cumque ullam.</p>
+        </div>
+      </div>
+    </div> <!-- id accordion end -->
+
+  </div>
+</main>
+</div>
+
+
+
+<div id="Category2" class="w3-container category w3-animate-opacity">
+<main>
+
+  <div class="container">
+
+    <div class="accordion">
+  
+   <div class="accordion__item">
+        <div class="accordion__item__header">
+         What are the schemes introduced by the government?
+        </div>
+    
+        <div class="accordion__item__content">
+         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Delectus, animi inventore iusto perspiciatis expedita dolorem vitae quisquam a, eaque, error dicta. Error consequuntur et esse incidunt, libero minus ab ut, alias sunt veritatis, aut quidem asperiores. Quia quae praesentium accusamus unde neque. Accusamus voluptatum omnis earum amet, vel blanditiis eos!
+        </div>
+      </div>
+
+   <div class="accordion__item">
+        <div class="accordion__item__header">
+         Who can benefit from the schemes?
+        </div>
+    
+        <div class="accordion__item__content">
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maiores, tempora autem atque explicabo reiciendis deserunt incidunt quis dolorem nostrum illo corrupti voluptatum fugiat ratione magnam dolorum nam nulla, labore sed ducimus facere! Facilis aliquid, quod fugit voluptatem a accusantium vel non accusamus! Eligendi repellendus quo aperiam alias perferendis ut voluptate.</p>
+         
+        </div>
+      </div>
+  </div>
+</main>
+</div>
+
+
+<!-- Another Category Starts Here -->
+
+<div id="Category3" class="w3-container category w3-animate-opacity">
+<main>
+
+  <div class="container">
+
+    <div class="accordion">
+  
+   <div class="accordion__item">
+        <div class="accordion__item__header">
+         What are the payment options available?
+        </div>
+    
+        <div class="accordion__item__content">
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nesciunt beatae odio soluta, cupiditate laborum blanditiis a dicta incidunt voluptate magnam voluptatum sed exercitationem amet mollitia repellat quasi vitae ullam repudiandae reiciendis neque in! Vitae velit totam repellat soluta placeat! Corporis odio nam quasi saepe pariatur minus excepturi maxime quisquam exercitationem!</p>
+        </div>
+      </div>
+
+   <div class="accordion__item">
+        <div class="accordion__item__header">
+         What to do when a transaction is failed?
+        </div>
+    
+        <div class="accordion__item__content">
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Beatae dolor asperiores saepe, distinctio velit quasi dolorem eligendi adipisci, placeat ex in, autem expedita quae atque alias perspiciatis ut cupiditate modi maxime tempore minus? A tenetur enim exercitationem repellat labore? Quasi expedita atque, sapiente magnam quidem impedit quisquam dicta officiis quia.</p>
+        </div>
+      </div>
+  </div>
+</main>
+</div>
+
+
+<!-- Another Category Ends Here -->
+
+
+
+<!-- Script for Tabs. No Need to Edit This. -->
+<script>
+
+// Tabs
+function openCategory(evt, CategoryName) {
+  var i;
+  var x = document.getElementsByClassName("category");
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";
+  }
+  var activebtn = document.getElementsByClassName("testbtn");
+  for (i = 0; i < x.length; i++) {
+      activebtn[i].className = activebtn[i].className.replace(" w3-theme-dark", "");
+  }
+  document.getElementById(CategoryName).style.display = "block";
+  evt.currentTarget.className += " w3-theme-dark";
+}
+
+var mybtn = document.getElementsByClassName("testbtn")[0];
+mybtn.click();
+
+</script>
+
+
+ <!-- jQuery -->
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+
+<script>
+
+if ($(".accordion__item__header").length > 0) {
+  var active = "active";
+  $(".accordion__item__header").click(function () {
+    $(this).toggleClass(active);
+    $(this).next("div").slideToggle(200);
+  });
+}
+  
+</script>
+
+</body>
+</html>

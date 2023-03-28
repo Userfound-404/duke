@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="icon" type="image/x-icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTf-pXw6hHCJ0VBrT0Ym40QWkaEEcrJAKt3U3E_k_I&s">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout</title>
+    <link rel="stylesheet" href="./style_reg.css">
+</head>
+<body>
+<!-- form container -->
+<div class="container">
+    <h1 class="main-heading">REGISTRATION FORM:</h1>
+    <hr>
+    <!-- form start -->
+    <form class="form-class">
+  
+      <!-- Name -->
+      <div class="form-control">
+  
+        <div class="heading-field">
+          <h3 class="field-head"> PERSONAL INFO:</h3>
+          <h3 class="field-head"> NAME : </h3>
+        </div>
+        <div class="field-inputs">
+          <div class="input-div">
+            <input type="text" class="form-control-input" id="first-name" name="first name" required>
+            <div id="first-name-help" class="help-text">Enter Your First Name</div>
+          </div>
+          <div class="input-div">
+            <input type="text" class="form-control-input" id="last-name" name="last name" required>
+            <div id="last-name-help" class="help-text">Enter last First Name</div>
+          </div><br><br>
+          <p>Enter your Date of Birth</p>
+            <input id="first" type="date" placeholder="dd-mm-yyyy">
+        </div>
+      </div>
+      <!-- Name Ends -->
+  
+      <!-- Address -->
+      <div class="form-control">
+  
+        <div class="heading-field">
+          <h3 class="field-head">Address</h3>
+        </div>
+  
+        <div>
+          <div class="input-div">
+            <input type="text" class="form-control-input" id="street-address" name="address" required>
+            <div id="street-address-help" class="help-text">Street Address</div>
+          </div>
+        </div>
+        <div>
+          <div class="input-div">
+            <input type="text" class="form-control-input" id="street-address-2" name="street" required>
+            <div id="street-address-2-help" class="help-text">Street Address Line 2</div>
+          </div>
+        </div>
+  
+        <div class="field-inputs">
+          <div class="input-div">
+            <input type="text" class="form-control-input" id="city-name" name="city" required>
+            <div id="city-help" class="help-text">City</div>
+        </div>
+  
+        <div class="field-inputs">
+          <div class="input-div">
+            <input type="number" class="form-control-input" id="zip-code" name="zip" required>
+            <div id="zip-code-help" class="help-text">Zip</div>
+          </div>
+          <div class="input-div">
+            <select class="form-control-input" name="District" required>
+              <option value="Hyderabad">Hyderabad</option>
+              <option value="Adilabad">Adilabad</option>
+              <option value="Nizamabad">Nizamabad</option>
+              <option value="Karimnagar">Karimnaga</option>
+              <option value="Warangal">Warangal</option>
+              <option value="Rangareddy">Rangareddy</option>
+              <option value="Nalgonda">Nalgonda</option>
+              <option value="Medak">Medak</option>
+              <option value="Mahbubnagar">Mahbubnagar</option>
+              <option value="Sangareddy">Sangareddy</option>
+              <option value="Jagtial">Jagtial</option>
+              <option value="Siddipet">Siddipet</option>
+              <option value="Suryapet">Suryapet</option>
+            </select>
+            <div id="district-help" class="help-text">Select District</div>
+          </div>
+        </div>
+  
+      </div>
+      <!-- Address ends -->
+
+            <!-- CONTACT -->
+            <div class="form-control">
+  
+                <div class="heading-field">
+                  <h3 class="field-head"> CONTACT : </h3>
+                </div>
+                <div class="field-inputs">
+                    <div class="input-div">
+                        <input type="text" class="form-control-input" id="Phone" name="Phone Number" required>
+                        <div id="last-name-help" class="help-text">Enter PHONE NUMBER</div>
+                      </div>
+                      </div>
+                <div class="field-inputs">
+                    <div class="input-div">
+                    <input type="text" class="form-control-input" id="Email" name="Mail Id" required>
+                    <div id="first-name-help" class="help-text">Mail Id</div>
+                  </div></div>
+                  <div class="input-div">
+                    <input type="text" class="form-control-input" id="Password" name="Password" required>
+                    <div id="last-name-help" class="help-text">Enter Password</div>
+                  </div>
+                  <div class="input-div">
+                    <input type="text" class="form-control-input" id="Password" name="Password" required>
+                    <div id="last-name-help" class="help-text">Confirm Password</div>
+                  </div>
+                </div>
+              </div>
+
+
+      <!-- personal detail ends -->
+      <input type="submit"> </input>
+  
+    </form>
+    <!-- form ends -->
+  </body>
+  </div>
+  <!-- form container ends -->

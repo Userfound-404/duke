@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="icon" type="image/x-icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTf-pXw6hHCJ0VBrT0Ym40QWkaEEcrJAKt3U3E_k_I&s">
+	<title>Online Licensing System</title>
+	<link rel="stylesheet" type="text/css" href="./style_lic.css">
+</head>
+<body>
+	<div class="container">
+		<h1>Online Licensing System</h1>
+		<form id="license-form" method="post">
+			<label for="license-key">Select license:</label>
+            <div class="input-div">
+                <select class="form-control-input" name="License" required>
+                    <option value=""></option>  
+                    <option value="Hospitals">Hospitals</option>
+                    <option value="Vehicles">Vehicles</option>
+                    <option value="Colleges">Colleges</option>
+                    <option value="Schools">Schools</option>
+                    <option value="Shops">Shops</option>
+                </select>
+            </div>
+            <label for="license-key">Select district:</label>
+            <div class="input-div">
+                <select class="form-control-input" name="District" required>
+                    <option value=""></option>
+                    <option value="Hyderabad">Hyderabad</option>
+                    <option value="Adilabad">Adilabad</option>
+                    <option value="Nizamabad">Nizamabad</option>
+                    <option value="Karimnagar">Karimnaga</option>
+                    <option value="Warangal">Warangal</option>
+                    <option value="Rangareddy">Rangareddy</option>
+                    <option value="Nalgonda">Nalgonda</option>
+                    <option value="Medak">Medak</option>
+                    <option value="Mahbubnagar">Mahbubnagar</option>
+                    <option value="Sangareddy">Sangareddy</option>
+                    <option value="Jagtial">Jagtial</option>
+                    <option value="Siddipet">Siddipet</option>
+                    <option value="Suryapet">Suryapet</option>
+                </select>
+            </div>
+
+            <label for="license-key">Registered Name:</label>
+			<input type="text" id="name" name="Name" required>
+
+            <label for="license-key">Enter your license key:</label>
+			<input type="text" id="license-key" name="license-key" required>
+
+            <label for="license-key">Enter your Aadhar Number:</label>
+			<input type="text" id="Aadhar" name="Aadhar" required>
+
+            <label for="license-key">Enter your PAN number:</label>
+			<input type="text" id="PAN" name="PAN" required>
+
+            <label for="license-key">Enter OTP received:</label>
+			<input type="text" id="OTP" name="OTP" required><br><br>
+			<input type="submit" value="Submit"><a href="http://127.0.0.1:5500/index.html?page=home"></a>
+		</form>
+	</div>
+</body>
+</html>
